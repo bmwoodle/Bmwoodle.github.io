@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+# Bootstrap 3 Starter Theme for Jekyll
 
-You can use the [editor on GitHub](https://github.com/bmwoodle/Bmwoodle.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+![Bootstrap 3 Jekyll](https://scotch.io/wp-content/uploads/2015/10/bootstrap-plus-jekyll.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* [Demo](http://scotch-io.github.io)
+* [Read the Jekyll Tutorial](https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme)
 
-### Markdown
+## WTF?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Jekyll is a simple and blog-aware static site generator built in Ruby. In laymen terms, it's just a tool to let you have **all the cool features of a full-blown CMS without having to worry about managing a database**. This means hosting is *extremely easy* and *scalable* since all you're doing is managing a bunch of files.
 
-```markdown
-Syntax highlighted code block
+This is just a starter theme!
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Getting Started
 
-1. Numbered
-2. List
+To start coding away, first clone this repo...
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+git clone https://github.com/scotch-io/scotch-io.github.io my-blog
+cd my-blog
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Then run Jekyll (if you don't have Jekyll installed, see the tutorial or docs):
 
-### Jekyll Themes
+```
+jekyll serve
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bmwoodle/Bmwoodle.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Change `url` in `_data/global.yml` to:
 
-### Support or Contact
+```
+http://127.0.0.1:4000
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Start coding.
+
+
+
+## Docs
+
+Read the tutorial!
+
+
+
+## MIT License
+
+Copyright (c) 2015-2016 Nicholas Cerminara, scotch.io, LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+
+
+
